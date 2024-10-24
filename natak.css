@@ -1,0 +1,191 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden; 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.stars {
+    position: absolute; 
+    width: 100%;
+    height: 100%; 
+    overflow: hidden; 
+}
+
+#str1, #str2, #str3, #str4, #str5 {
+    position: absolute; 
+}
+
+#str1 {
+    left: -3%;
+    top: 0%;
+}
+
+#str4 {
+    right: 12%;
+    top: -7%;
+}
+
+#str5 {
+    right: -7%;
+    top: -4%;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%; 
+    height: 300px; 
+    object-fit: cover; 
+    overflow: hidden; 
+}
+
+.container {
+    background-color:#f0f3f7;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    z-index: 1;
+}
+
+
+.nmbr {
+    width: 76%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 17px;
+    font-family: profeshhh;
+    text-align: center;
+    position: relative;
+    top: -115px;
+    left: 33px;
+}
+
+.psd {
+    width: 76%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 17px;
+    font-family: profeshhh;
+    text-align: center;
+    position: relative;
+    top: -115px;
+    left: 33px;
+}
+
+.btn {
+    width: 26%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #8C53FF;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-family: profeshhh;
+    cursor: pointer;
+    position: relative;
+    top: -110px;
+    left: 129px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #A2D2ff;
+    color: black;
+}
+
+.forgot-pw {
+    font-size: 12px;
+    margin-top: 10px;
+    color: black;
+    text-align: right;
+    text-decoration: underline;
+    position: relative;
+    top: -75px;
+    left: 140px;
+    font-family: profeshhh;
+}
+
+.forgot-pw:hover {
+    text-decoration: underline;
+    color: #8C53FF;
+}
+
+#logo
+{
+    position: relative;
+  top: 10px;
+}
+
+#pp
+{
+    font-family: profeshhh;
+    position: relative;
+    text-align: center;
+    left: -30px;
+    top: 50px;
+}
+
+#aa
+{
+    color: green;
+    font-family: profeshhh;
+    text-decoration: underline;
+    position: relative;
+    left: 227px;
+    top: 10px;
+}
+
+#aa:hover
+{
+    color: black;
+    text-decoration: underline;
+}
+
+#st1
+{
+    position: relative;
+    left: -550px;
+    top: -70px;
+    transform: rotate(30deg);
+}
+
+#st2
+{
+    position: relative;
+    left: 250px;
+    top: 30px;
+    transform: rotate(30deg);
+}
+
+@keyframes slowRotate {
+    from {
+        transform: rotate(30deg);
+    }
+    to {
+        transform: rotate(390deg); 
+    }
+}
+
+#st1, #st2 {
+    animation: slowRotate 10s linear infinite; 
+}
+

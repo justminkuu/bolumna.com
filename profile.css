@@ -1,0 +1,80 @@
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%; 
+    height: 300px; 
+    object-fit: cover; 
+    overflow: hidden; 
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden; 
+}
+
+.header
+{
+    background-color: #a2d2ff;
+    height: 65px;
+}
+
+#logo
+{
+    height: 250px;
+    position: relative;
+    left: 40%;
+    top: -150%;
+
+}
+
+.container {
+    background-color:#f0f3f7;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    left: 33%;
+    top: -0.6%;
+    width: 400px;
+    height: 430px;
+}
+
+.title
+{
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    font-family: profeshhh;
+    top: -7%;
+ 
+}
+
+#st1
+{
+    position: relative;
+    position: relative;
+  left: 80%;
+  top: 55%;
+}
+
+#st2
+{
+    position: relative;
+    left: 100px;
+    top: 200px;
+    transform: rotate(30deg);
+}
+
+@keyframes slowRotate {
+    from {
+        transform: rotate(30deg);
+    }
+    to {
+        transform: rotate(390deg); 
+    }
+}
+
+#st1, #st2 {
+    animation: slowRotate 10s linear infinite; 
+}
