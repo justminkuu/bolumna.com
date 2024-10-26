@@ -18,9 +18,35 @@
         <p class="title">
             setup your profile
         </p>
+
+
+        <div class="main">
+            <div class="profile-picture">
+                <img id="profilePicPreview" src="resources/img/pp.png" alt="Profile Picture" class="preview-image">
+                <label for="profilePicInput" class="browse">browse</label>
+                <input type="file" id="profilePicInput" accept="image/*" onchange="previewProfilePic(event)">
+            </div>
+    
+            <!-- Username and Bio -->
+               <input type="text" id="name" placeholder="enter your username">
+               <input type="text" id="bio" placeholder="enter bio">
+    
+            <div class="terms">
+                <input type="checkbox" id="terms" required>
+                <label for="terms">I agree to the terms and conditions</label>
+            </div>
+    
+            <button onclick="saveProfile()">Boldim</button>
+        </div>
+    
+        
+        
     </div>
 
-    
+</div>
+
+</div>
+    <script src="kaam.js"></script>
 
     
     <img src="resources/img/foot.svg" alt="" id="footer">
