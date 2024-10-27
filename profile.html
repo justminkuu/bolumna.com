@@ -49,6 +49,34 @@
     <script src="kaam.js"></script>
 
     
+    <script>
+        
+
+    function saveProfile() {
+        const username = document.getElementById("name").value;
+        const profilePicInput = document.getElementById("profilePicInput");
+        
+        if (username) {
+            localStorage.setItem("username", username);
+        }
+
+        // Save profile picture as base64
+        if (profilePicInput.files && profilePicInput.files[0]) {
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                localStorage.setItem("profilePic", e.target.result); // Save base64 image data
+            };
+            reader.readAsDataURL(profilePicInput.files[0]);
+        }
+        
+        // Redirect to feed page
+        setTimeout(() => {
+            window.location.href = "feed.html"; // Adjust the path if needed
+        }, 500);
+    }
+</script>
+
+    
     <img src="resources/img/foot.svg" alt="" id="footer">
 </body>
 </html>

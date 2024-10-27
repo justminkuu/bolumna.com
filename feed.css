@@ -21,3 +21,288 @@ html, body {
 }
 
 
+
+.left-side {
+    background-color: #f0f3f7;
+    height: 540px;
+    width: 291px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    position: relative;
+    top: 13px;
+    left: 12px;
+    border: none;
+    border-radius: 20px;
+  
+}
+
+#usr-profile {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    position: relative;
+    left: -65px;
+    top: -4px;
+}
+
+#username {
+    font-size: 18px;
+    color: #333;
+    font-family: profeshhh;
+    position: relative;
+    left: 50px;
+    top: -79px;
+}
+
+#hr-line
+{
+    width: 288px;
+  position: relative;
+  top: -64px;
+}
+
+#pp
+{
+    position: relative;
+    left: -47px;
+    top: -2px;
+    z-index: 1;
+  
+}
+#profile
+{
+    width: 207px;
+  height: 41px;
+  border: none;
+  position: relative;
+  top: -35px;
+  font-family: profeshhh;
+  font-size: 19px;
+  cursor: pointer;
+  background-color: #a2d2ff;
+border-radius: 20px;
+}
+
+#profile:hover
+{
+    background-color: #a8a7a7;
+    
+}
+
+#a-p
+{
+    position: relative;
+    left: 10px;
+}
+
+#set
+{
+    position: relative;
+    left: -47px;
+    top: -2px;
+    z-index: 1;
+  
+}
+#setting
+{
+    width: 207px;
+  height: 41px;
+  border: none;
+  position: relative;
+  top: -35px;
+  font-family: profeshhh;
+  font-size: 19px;
+  cursor: pointer;
+  background-color: #a2d2ff;
+border-radius: 20px;
+}
+
+#setting:hover
+{
+    background-color: #a8a7a7;
+    
+}
+
+#s-p
+{
+    position: relative;
+    left: 10px;
+}
+
+#frnds
+{
+    position: relative;
+    left: -47px;
+    top: -2px;
+    z-index: 1;
+  
+}
+#friends
+{
+    width: 207px;
+  height: 41px;
+  border: none;
+  position: relative;
+  top: -35px;
+  font-family: profeshhh;
+  font-size: 19px;
+  cursor: pointer;
+  background-color: #a2d2ff;
+border-radius: 20px;
+}
+
+#friends:hover
+{
+    background-color: #a8a7a7;
+    
+}
+
+#f-p
+{
+    position: relative;
+    left: 10px;
+}
+
+
+#home
+{
+    position: relative;
+    left: -47px;
+    top: -2px;
+    z-index: 1;
+  
+}
+#homee
+{
+    width: 207px;
+  height: 41px;
+  border: none;
+  position: relative;
+  top: -35px;
+  font-family: profeshhh;
+  font-size: 19px;
+  cursor: pointer;
+  background-color: #a2d2ff;
+border-radius: 20px;
+}
+
+#homee:hover
+{
+    background-color: #a8a7a7;
+    
+}
+
+#h-p
+{
+    position: relative;
+    left: 10px;
+}
+
+#srch
+{
+    position: relative;
+    left: -47px;
+    top: -2px;
+    z-index: 1;
+  
+}
+#search
+{
+    width: 207px;
+  height: 41px;
+  border: none;
+  position: relative;
+  top: -35px;
+  font-family: profeshhh;
+  font-size: 19px;
+  cursor: pointer;
+  background-color: #a2d2ff;
+border-radius: 20px;
+}
+
+#search:hover
+{
+    background-color: #a8a7a7;
+    
+}
+
+#s-p
+{
+    position: relative;
+    left: 10px;
+}
+
+.container
+{
+    background-color: #f0f3f7;
+    height: 561px;
+    position: relative;
+    top: -547px;
+    width: 953px;
+    left: 315px;
+    border-radius: 15px;
+}
+
+#chat
+{
+    position: relative;
+  top: 320px;
+  width: 836px;
+  left: 40px;
+  height: 37px;
+  border: 0.009px solid black;
+  border-radius: 8px;
+  background: #d8dbdd;
+  font-family: profeshhh;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+}
+#line2
+{
+    position: relative;
+  top: -69px;
+}
+#send
+{
+    position: relative;
+  top: 327px;
+  left: 870px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+#pp2
+{
+    height: 80px;
+  position: relative;
+  border-radius: 44px;
+  width: 76px;
+  left: 354px;
+  top: 17px;
+}
+
+#name
+{
+    position: relative;
+  left: 447px;
+  font-family: profeshhh;
+  font-size: 18px;
+  top: -65px;
+  color: #8c52ff;
+}
+
+#place
+{
+    position: relative;
+  font-size: 18px;
+  font-family: profeshhh;
+  left: 494px;
+  top: -78px;
+}
+
+
